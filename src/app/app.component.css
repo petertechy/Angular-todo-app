@@ -1,0 +1,41 @@
+/* Style for the app title */
+.app-title {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin-top: 20px;
+    font-size: 28px;
+  }
+  
+  /* Style for the navbar container */
+  .navbar {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the individual nav links */
+  .nav-link {
+    font-size: 18px;
+    color: #007bff;
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style for the active link */
+  .nav-link.active {
+    font-weight: bold;
+    color: #0056b3;
+  }
+  
+  /* Style for the separator line */
+  .separator {
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
