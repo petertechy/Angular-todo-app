@@ -1,0 +1,11 @@
+<h2 class="form-title">Add New Todo</h2>
+<form (ngSubmit)="addTodo()" class="todo-form">
+  <input
+    type="text"
+    [(ngModel)]="todoTitle"
+    name="title"
+    placeholder="Enter todo title"
+    class="todo-input"
+  />
+  <button type="submit" class="submit-button">Add Todo</button>
+</form>

@@ -1,0 +1,11 @@
+<h2 class="todo-list-title">Todo List</h2>
+<div *ngIf="todos.length === 0" class="no-todos-message">No todos yet!</div>
+<div *ngFor="let todo of todos">
+  <app-todo-item
+    [todo]="todo"
+    (deleted)="onTodoDeleted()"
+    (toggled)="onToggleComplete()"
+    class="todo-item-container"
+  ></app-todo-item>
+</div>
+
