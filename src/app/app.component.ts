@@ -4,9 +4,9 @@ import { RouterModule, RouterOutlet } from '@angular/router';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterModule], // ✅ RouterModule includes both RouterOutlet and directives like routerLink
+  imports: [RouterModule],
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'] // ✅ Fix typo: should be styleUrls (with an 's')
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   title = 'todo-app';
