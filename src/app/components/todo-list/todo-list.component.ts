@@ -8,7 +8,7 @@ import { TodoItemComponent } from '../todo-item/todo-item.component';
   selector: 'app-todo-list',
   standalone: true,
   imports: [CommonModule, TodoItemComponent],
-  templateUrl: './todo-list.component.html',
+  templateUrl: './todo-list.component.html', 
   styleUrls: ['./todo-list.component.css']
 })
 export class TodoListComponent implements OnInit {
