@@ -4,7 +4,7 @@ import { Todo } from '../../models/todo.model';
 import { TodoService } from '../../services/todo.service';
 
 @Component({
-  selector: 'app-todo-item',
+  selector: 'app-todo-item', 
   standalone: true,
   imports: [CommonModule],
   templateUrl: './todo-item.component.html',
